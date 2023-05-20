@@ -1,0 +1,142 @@
+.container{
+background-color: rgb(193, 240, 232);
+border-width: 700px;
+width: 2700px;
+border-bottom-width: 600px;
+
+}
+.strong{
+    border-radius: 35px;
+    border:10px solid rgb(96, 209, 230);
+    font-size:55px;
+    text-align: center;
+    
+    
+
+}
+button{
+    font-size: 60px;
+    position:absolute;
+    top: 190px;
+    right: 150px;
+    border-radius: 50%;
+    background-color:rgb(96, 209, 230) ;
+
+}
+button:hover{
+background-color:white;
+
+}
+.location {
+position: relative;
+left: -2px;
+top:55px;
+bottom:-55px;
+border:10px solid rgb(93, 199, 218);
+border-radius: 20px;
+border-width:   10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 54px;
+
+}
+
+
+
+.temp{
+   position:relative;
+   right: -95px;
+   bottom: -70px;
+   border:10px solid rgb(96, 209, 230);
+   border-radius: 190px;
+   width: 370px;
+   font-size: 44px;
+
+}
+
+.city-temp{
+    text-align: center;
+    position: relative;
+    right: -100px;
+    bottom:-50px;
+    border:10px solid rgb(96, 209, 230);
+   border-radius: 119px;
+   width: 370px;
+   font-size: 44px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+ 
+.icon{
+    position:relative;
+    top: -100px;
+    font-size:77px ;
+    width: 105px;
+    }
+
+    .home{
+    position: absolute;
+    bottom: -750px;
+    right: 120px;
+width: 500px;
+border:10px solid rgb(96, 209, 230);
+   border-radius: 255px;
+   width: 100px;
+   font-size: 60px;
+   text-align: center;
+   background-color: aquamarine;
+}
+.home:hover{
+    cursor:pointer;
+    background-color: rgb(0, 219, 219);
+}
+
+h3{
+    font-size: 34px;
+position: relative;
+right: -850px;
+bottom: 609px;
+text-decoration: underline;
+color: rgb(96, 209, 230);
+}
+h3:hover{
+    color: azure;
+    cursor: pointer;
+}
+
+.card{
+display: flex;
+justify-content: space-between;
+
+    color: black;
+font-size: 45px;
+line-height: 50px;
+width:800px;
+border-color: yellow;
+position: inherit;
+
+}
+.left{
+
+    text-align: left;
+}
+.right{
+    text-align: right;
+    width:520px;
+
+}
+
+
+.card:hover
+{
+    background-color: rgb(193, 240, 232)
+}
+
+hr{
+   border-color:yellow;
+}
+footer{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
